@@ -10,7 +10,7 @@ namespace HelloWorld
             int numOfProjects = int.Parse(Console.ReadLine());
             int individualProjectTime = 3;
             int timeForAllProjects = numOfProjects * individualProjectTime;
-            Console.WriteLine($"The architect{nameOfTheArchitect} will need {timeForAllProjects} hours to complete {numOfProjects} project/s.");
+            Console.WriteLine($"The architect {nameOfTheArchitect} will need {timeForAllProjects} hours to complete {numOfProjects} project/s.");
         }
     } 
 }
