@@ -6,16 +6,16 @@ namespace HelloWorld
     {
         static void Main()
         {
-            int Num1 = int.Parse(Console.ReadLine());
-            int Num2 = int.Parse(Console.ReadLine());
-            bool isBiggerNum = Num1 > Num2;
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
+            bool isBiggerNum = num1 > num2;
             if (isBiggerNum)
             {
-                Console.WriteLine(Num1);
+                Console.WriteLine(num1);
             }
             else
             {
-                Console.WriteLine(Num2);
+                Console.WriteLine(num2);
             }
         }
     }
