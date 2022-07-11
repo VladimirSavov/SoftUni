@@ -6,8 +6,8 @@ namespace HelloWorld
     {
         static void Main()
         {
-            int Num = int.Parse(Console.ReadLine());
-            if (Num % 2 == 0)
+            int num = int.Parse(Console.ReadLine());
+            if (num % 2 == 0)
             {
                 Console.WriteLine("even");
             }
