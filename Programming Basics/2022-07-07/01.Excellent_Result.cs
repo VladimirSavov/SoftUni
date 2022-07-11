@@ -10,7 +10,7 @@ namespace HelloWorld
             bool isBiggerGrade = grade >= 5.5;
             if (isBiggerGrade)
             {
-                Console.WriteLine("Excellent");
+                Console.WriteLine("Excellent!");
             }
             
         }
