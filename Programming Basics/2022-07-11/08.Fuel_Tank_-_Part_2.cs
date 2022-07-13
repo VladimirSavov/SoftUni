@@ -31,7 +31,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
                 if(clubCart == "No")
@@ -50,7 +50,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
 
@@ -73,7 +73,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
                 if (clubCart == "No")
@@ -92,7 +92,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
             }
@@ -114,7 +114,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
                 if (clubCart == "No")
@@ -133,7 +133,7 @@ namespace Softuni
                     }
                     else
                     {
-                        Console.WriteLine("{0:F2}", finalPrice);
+                        Console.WriteLine($"{finalPrice:F2} lv.");
                     }
                 }
             }
