@@ -9,33 +9,30 @@ namespace Softuni
             int num1 = int.Parse(Console.ReadLine());
             int num2 = int.Parse(Console.ReadLine());
             int num3 = int.Parse(Console.ReadLine());
-            int count = 0;
             for (int i = 1; i <= num1; i++)
             {
-                if (i % 2 == 0)
+                if(i % 2 != 0)
                 {
-                    for (int k = 1; k <= num2; k++)
+                    continue;
+                }
+                for (int k = 1; k <= num2; k++)
+                {
+                    if (k == 1 || k == 4 || k == 6 || k == 8 || k == 9)
                     {
-                        if (num2 % k != 0 || num2 == k)
+                        continue;
+                    }
+                    for (int j = 1; j <= num3; j++)
+                    {
+
+                        if (j % 2 != 0)
                         {
-                            count++;
-                            if (count <= 2)
-                            {
-                                for (int l = 1; l <= num3; l++)
-                                {
-                                    if (l % 2 == 0)
-                                    {
-                                        count = 0;
-                                        Console.WriteLine($"{i} {k} {l}");
-                                    }
-                                }
-                            }
+                            continue;
                         }
-                        
+                        Console.WriteLine($"{i} {k} {j}");
                     }
                 }
             }
         }
-
     }
 }
+
